@@ -16,3 +16,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/car_x86_64.mk
+
+COMMON_LUNCH_CHOICES := \
+    car_x86_64-eng \
+    car_x86_64-user \
+    car_x86_64-userdebug
